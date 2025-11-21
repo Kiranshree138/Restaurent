@@ -109,7 +109,7 @@ export default function ChefsPage() {
             <p className="text-sm">Grill Master</p>
           </div>
         </div>
-        <div className="absolute bottom-[-100px] absolute md:top-[-300px]">
+        <div className="absolute top-[700px]  md:top-[-100px]">
         <Footer/>
         </div>
       </div>
