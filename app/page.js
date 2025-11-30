@@ -13,11 +13,11 @@ export default function Homepage(){
   
   return (
     
-    <div className="bg-white ">
-   <div className=" relative w-[450px] md:w-full md:h-[700px] h-[300px]">
+    <div className="bg-white overflow-x-hidden dark:bg-black">
+   <div className=" relative w-[450px] md:w-full md:h-[700px] h-[300px] ">
     
     <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
-    className="w-[900px] md:w-full object-cover rounded-2xl"/>
+    className="w-[500px] md:w-full object-cover rounded-2xl"/>
     <p className="hidden md:block absolute top-5 left-5 text-white text-0.5xl font-semibold ml-[100px]"> Phone: +4733378901</p>
      <p className="hidden md:block absolute top-5 left-5 text-white text-0.5xl font-semibold ml-[300px]">Email: food@restan.com</p>
      <p className="hidden md:block absolute top-5 right-5 text-white text-0.5xl font-semibold">175 10h Street, Office 375 Berlin, De 21562</p>  
@@ -99,7 +99,9 @@ export default function Homepage(){
    </div>
    
    </div>
-   <div className="flex flex-col flex md:flex-row absolute bottom-[-5000px] absolute md:bottom-[-3200px] items-center justify-center ml-[10px] md:ml-[40px]">
+<div className="flex flex-col md:flex-row absolute md:bottom-[-3200px] bottom-[-5000px] items-center justify-center ml-[10px] md:ml-[40px]">
+
+
     <Timings/>
     <Chef/>
     <Blog/>
